@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e462cfac-bf51-4972-a646-8aed5cd1ca9d">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idserv" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT * FROM tblservices WHERE idServ = $P{idserv}]]>
+	</queryString>
+	<field name="idServ" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="alamat" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="no_tlp" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jenPelayanan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="hargaBarang" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="beratBaju" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="totalHarga" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="84" splitType="Stretch">
+			<staticText>
+				<reportElement x="54" y="5" width="435" height="45" uuid="df4149b8-e53b-4bc2-a327-44817e4a153b"/>
+				<textElement textAlignment="Center">
+					<font size="32"/>
+				</textElement>
+				<text><![CDATA[CORVOO LAUNDRY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="57" width="555" height="16" uuid="820144eb-49a0-48df-975b-394b18185771"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Perumahan Bukit Waringin Blok 12, Telepon. 0812900000, Website. www.jagonyacui.com]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="2" width="555" height="16" uuid="d4a519ef-8f6f-451a-ba0d-938efa0f7e9b"/>
+				<textElement textAlignment="Left">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[===============================================================================]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="218" splitType="Stretch">
+			<staticText>
+				<reportElement x="14" y="13" width="100" height="20" uuid="c2670e89-54d9-47ab-ae02-61b9175168f1"/>
+				<text><![CDATA[ID Layanan:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="279" y="13" width="100" height="20" uuid="21f240ec-24eb-452c-8739-b6254e8f6fe6"/>
+				<textFieldExpression><![CDATA[$F{idServ}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="40" width="100" height="20" uuid="cb0ff8de-e270-4ec6-8418-a5b630c7ed52"/>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="67" width="100" height="20" uuid="517e24e5-6463-42de-b559-6204d7e6032d"/>
+				<textFieldExpression><![CDATA[$F{alamat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="95" width="100" height="20" uuid="26da0779-3229-46a2-bc4e-2ef44ae20012"/>
+				<textFieldExpression><![CDATA[$F{jenPelayanan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="445" y="157" width="100" height="20" uuid="3ddc5eeb-4263-4e73-825b-f5f2c18a9ae0"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{beratBaju}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="14" y="40" width="100" height="20" uuid="57966521-f2e1-423a-8630-9a83963dd018"/>
+				<text><![CDATA[Nama:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="67" width="100" height="20" uuid="d4d64b29-27a6-438b-8a6a-274a168ed4da"/>
+				<text><![CDATA[Alamat:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="14" y="95" width="100" height="20" uuid="afe85143-aa7b-429e-8134-d90ded1aa736"/>
+				<text><![CDATA[Jenis Pelayanan:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="157" width="100" height="20" uuid="da2d114e-43dd-429f-b6d7-896b24571330"/>
+				<text><![CDATA[Berat per Kg      :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="445" y="182" width="100" height="20" uuid="16ac8cd1-78d8-43f5-8c10-0bd8d3d4eb6d"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{totalHarga}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="324" y="182" width="100" height="20" uuid="bd667e09-83b2-4eaa-86fd-9cb9b48398cb"/>
+				<text><![CDATA[Total Harga        :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-2" y="193" width="555" height="16" uuid="7f04b34f-dced-40da-add0-2918afdd69ae"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[===============================================================================]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="116" width="555" height="20" uuid="f30ea0c1-5b65-4a45-8bde-1af8cef7496f"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[===============================================================================]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="445" y="131" width="100" height="20" uuid="ca7801af-37e2-4b1b-a846-74f23ec041f8"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{hargaBarang}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="324" y="131" width="100" height="20" uuid="85e81000-d3e2-47c1-af19-e146d2f78647"/>
+				<text><![CDATA[Harga per Kg    :]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<summary>
+		<band height="88">
+			<staticText>
+				<reportElement x="42" y="56" width="447" height="20" uuid="f7ee6a3e-62a0-49e6-bf95-fe74e728c314"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[CREATED BY: MUHAMAD FAIZAL ARDIANSYAH (202333500728)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="36" width="505" height="20" uuid="d56b6967-6bba-4399-9887-353f1e5030db"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[ Semoga pelayanan laundry kami selalu menjadi bagian dari keseharian yang menyenangkan bagi Anda.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="89" y="16" width="356" height="20" uuid="ea7256f4-b127-44aa-ab3c-ae591208c158"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Terima kasih atas kepercayaan yang Anda berikan kepada kami. ]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>
