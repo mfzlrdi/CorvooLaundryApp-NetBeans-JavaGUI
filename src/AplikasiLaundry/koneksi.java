@@ -12,19 +12,20 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author mhmdf
+ * @author Corvoo
  */
 public class koneksi {
         Connection con;
         Statement stm;
+
         public void dbconfig() {
-                    try {
-                            Class.forName("com.mysql.cj.jdbc.Driver");
-                            con=DriverManager.getConnection("jdbc:mysql://localhost/laundryCorvoo", "root", "");
-                            stm = con.createStatement();
-                            JOptionPane.showMessageDialog(null, "Koneksi Berhasil");
-                     } catch (Exception e) {
-                            JOptionPane.showMessageDialog(null, "Koneksi Gagal" + e.getMessage());
-                     }
+                try {
+                        Class.forName("com.mysql.cj.jdbc.Driver");
+                        con = DriverManager.getConnection("jdbc:mysql://localhost/laundryCorvoo", "root", "");
+                        stm = con.createStatement();
+                        JOptionPane.showMessageDialog(null, "Koneksi Berhasil");
+                } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Koneksi Gagal" + e.getMessage());
+                }
         }
 }
