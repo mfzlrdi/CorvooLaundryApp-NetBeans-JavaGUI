@@ -15,21 +15,21 @@
 
 ## ✨ Fitur Utama
 
-- 🔐 **Login System** — autentikasi pengguna dengan toggle show/hide password
-- 📋 **Menu Manajemen Laundry** — kelola data layanan & transaksi laundry
-- 🗄️ **Koneksi Database MySQL** — penyimpanan data terstruktur & terpusat
-- 🧾 **Cetak Laporan Layanan** — generate struk/laporan otomatis dengan JasperReport
-- 🎨 **Tampilan Modern** — UI custom (rounded button, ikon interaktif) dengan FlatLaf theme
+- **Login System** — autentikasi pengguna dengan toggle show/hide password
+- **Menu Manajemen Laundry** — kelola data layanan & transaksi laundry
+- **Koneksi Database MySQL** — penyimpanan data terstruktur & terpusat
+- **Cetak Laporan Layanan** — generate struk/laporan otomatis dengan JasperReport
+- **Tampilan Modern** — UI custom (rounded button, ikon interaktif) dengan FlatLaf theme
 
 ## 🛠️ Tech Stack
 
 | Teknologi | Fungsi |
 |---|---|
-| ☕ Java (Swing) | Bahasa & GUI framework utama |
-| 🖥️ NetBeans IDE | Tools development |
-| 🐬 MySQL | Database |
-| 📊 JasperReport / iReport | Generate & cetak laporan |
-| 🎨 FlatLaf | Modern look and feel untuk UI |
+| Java (Swing) | Bahasa & GUI framework utama |
+| NetBeans IDE | Tools development |
+| MySQL | Database |
+| JasperReport / iReport | Generate & cetak laporan |
+| FlatLaf | Modern look and feel untuk UI |
 
 ## 📂 Struktur Project
 
