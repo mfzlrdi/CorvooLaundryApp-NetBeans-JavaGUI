@@ -1,6 +1,6 @@
 # 🧺 Corvoo Laundry
 
-> Aplikasi desktop manajemen laundry berbasis Java GUI — dibangun untuk mempermudah operasional bisnis laundry mulai dari login, transaksi, hingga cetak laporan.
+> Aplikasi desktop manajemen laundry berbasis Java GUI dibangun untuk mempermudah operasional bisnis laundry mulai dari login, transaksi, hingga cetak laporan.
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
 [![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)](https://netbeans.apache.org/)
@@ -11,17 +11,17 @@
 
 ## 📌 Tentang Project
 
-**Corvoo Laundry** adalah aplikasi desktop CRUD untuk mengelola bisnis laundry — dibangun dengan Java Swing (NetBeans) dan database MySQL. Aplikasi ini dirancang dengan tampilan modern menggunakan **FlatLaf** look and feel, lengkap dengan sistem login, manajemen data, dan fitur cetak laporan otomatis via **JasperReport**.
+**Corvoo Laundry** adalah aplikasi desktop CRUD untuk mengelola bisnis laundry dibangun dengan Java Swing (NetBeans) dan database MySQL. Aplikasi ini dirancang dengan tampilan modern menggunakan **FlatLaf** look and feel, lengkap dengan sistem login, manajemen data, dan fitur cetak laporan otomatis via **JasperReport**.
 
 ## ✨ Fitur Utama
 
-- **Login System** — autentikasi pengguna dengan toggle show/hide password
-- **Tambah & Simpan Data Layanan** — input nama, alamat, telepon, dan jenis layanan pelanggan
-- **Ubah & Hapus Data** — kelola data layanan yang sudah tersimpan dengan mudah
-- **Hitung Otomatis** — kalkulasi total harga berdasarkan jenis layanan (Cuci/Setrika/Cuci-Setrika) dan berat (Kg)
-- **Koneksi Database MySQL** — penyimpanan data terstruktur & terpusat
-- **Cetak Struk Otomatis** — generate struk transaksi dengan JasperReport, lengkap dengan rincian harga
-- **Tampilan Modern** — UI custom (rounded button, ikon interaktif) dengan FlatLaf theme
+- **Login System** autentikasi pengguna dengan toggle show/hide password
+- **Tambah & Simpan Data Layanan** input nama, alamat, telepon, dan jenis layanan pelanggan
+- **Ubah & Hapus Data** kelola data layanan yang sudah tersimpan dengan mudah
+- **Hitung Otomatis** kalkulasi total harga berdasarkan jenis layanan (Cuci/Setrika/Cuci-Setrika) dan berat (Kg)
+- **Koneksi Database MySQL** penyimpanan data terstruktur & terpusat
+- **Cetak Struk Otomatis** generate struk transaksi dengan JasperReport, lengkap dengan rincian harga
+- **Tampilan Modern** UI custom (rounded button, ikon interaktif) dengan FlatLaf theme
 
 ## 📸 Preview Aplikasi
 
@@ -39,13 +39,13 @@
 
 <table>
   <tr>
-    <td align="center"><b>📋 Menu Utama — Manajemen Layanan</b></td>
+    <td align="center"><b>📋 Menu Utama Manajemen Layanan</b></td>
   </tr>
   <tr>
     <td><img src="screenshots/menu-laundry.png" alt="Menu Utama Corvoo Laundry" width="100%"></td>
   </tr>
   <tr>
-    <td>Halaman inti aplikasi untuk mengelola data layanan laundry — input nama, alamat, telepon, jenis layanan (Cuci/Setrika/Cuci-Setrika), berat, hingga hitung total otomatis. Dilengkapi tabel data, serta tombol <b>Ubah</b>, <b>Hapus</b>, dan <b>Cetak Struk</b>.</td>
+    <td>Halaman inti aplikasi untuk mengelola data layanan laundry input nama, alamat, telepon, jenis layanan (Cuci/Setrika/Cuci-Setrika), berat, hingga hitung total otomatis. Dilengkapi tabel data, serta tombol <b>Ubah</b>, <b>Hapus</b>, dan <b>Cetak Struk</b>.</td>
   </tr>
 </table>
 
@@ -57,7 +57,7 @@
     <td><img src="screenshots/cetak-struk.png" alt="Cetak Struk Corvoo Laundry" width="100%"></td>
   </tr>
   <tr>
-    <td>Struk transaksi otomatis berisi detail layanan, harga per kg, berat, dan total harga — dibuat menggunakan JasperReport, siap untuk dicetak atau disimpan sebagai bukti transaksi pelanggan.</td>
+    <td>Struk transaksi otomatis berisi detail layanan, harga per kg, berat, dan total harga dibuat menggunakan JasperReport, siap untuk dicetak atau disimpan sebagai bukti transaksi pelanggan.</td>
   </tr>
 </table>
 
@@ -118,7 +118,7 @@ Struktur database tersedia di `database/laundrycorvoo.sql`, sudah termasuk tabel
 
 ## 🌱 Status Pengembangan
 
-Project ini masih berkembang — beberapa fitur tambahan (laporan keuangan, manajemen pelanggan, notifikasi status laundry) direncanakan untuk update selanjutnya.
+Project ini masih berkembang beberapa fitur tambahan (laporan keuangan, manajemen pelanggan, notifikasi status laundry) direncanakan untuk update selanjutnya.
 
 ## 🤝 Kontribusi
 
@@ -126,4 +126,4 @@ Saran, masukan, dan kontribusi sangat terbuka! Silakan buka **Issue** atau **Pul
 
 ---
 
-<p align="center">Made with ☕ & 🧺 — Corvoo Laundry</p>
+<p align="center">Made with ☕ & 🧺 Corvoo Laundry</p>
