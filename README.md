@@ -16,10 +16,50 @@
 ## ✨ Fitur Utama
 
 - **Login System** — autentikasi pengguna dengan toggle show/hide password
-- **Menu Manajemen Laundry** — kelola data layanan & transaksi laundry
+- **Tambah & Simpan Data Layanan** — input nama, alamat, telepon, dan jenis layanan pelanggan
+- **Ubah & Hapus Data** — kelola data layanan yang sudah tersimpan dengan mudah
+- **Hitung Otomatis** — kalkulasi total harga berdasarkan jenis layanan (Cuci/Setrika/Cuci-Setrika) dan berat (Kg)
 - **Koneksi Database MySQL** — penyimpanan data terstruktur & terpusat
-- **Cetak Laporan Layanan** — generate struk/laporan otomatis dengan JasperReport
+- **Cetak Struk Otomatis** — generate struk transaksi dengan JasperReport, lengkap dengan rincian harga
 - **Tampilan Modern** — UI custom (rounded button, ikon interaktif) dengan FlatLaf theme
+
+## 📸 Preview Aplikasi
+
+<table>
+  <tr>
+    <td align="center"><b>🔐 Halaman Login</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/login.png" alt="Halaman Login Corvoo Laundry" width="100%"></td>
+  </tr>
+  <tr>
+    <td>Tampilan awal aplikasi dengan ilustrasi tema laundry. User memasukkan <i>username</i> dan <i>password</i> untuk masuk ke sistem, dilengkapi tombol <i>show/hide password</i> 👁️.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center"><b>📋 Menu Utama — Manajemen Layanan</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/menu-laundry.png" alt="Menu Utama Corvoo Laundry" width="100%"></td>
+  </tr>
+  <tr>
+    <td>Halaman inti aplikasi untuk mengelola data layanan laundry — input nama, alamat, telepon, jenis layanan (Cuci/Setrika/Cuci-Setrika), berat, hingga hitung total otomatis. Dilengkapi tabel data, serta tombol <b>Ubah</b>, <b>Hapus</b>, dan <b>Cetak Struk</b>.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center"><b>🧾 Cetak Struk (JasperReport)</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/cetak-struk.png" alt="Cetak Struk Corvoo Laundry" width="100%"></td>
+  </tr>
+  <tr>
+    <td>Struk transaksi otomatis berisi detail layanan, harga per kg, berat, dan total harga — dibuat menggunakan JasperReport, siap untuk dicetak atau disimpan sebagai bukti transaksi pelanggan.</td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack
 
